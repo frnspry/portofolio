@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Fransiscus Dharma Hadi Prayoga</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/fc96f5ac46.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certification">Certification</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, <br>I'm <span>Fransiscus Dharma Hadi Prayoga</span> <br>A Fresh Graduate Informatics Engineering</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/frans.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Interested in web and application development, especially in the field of backend and cloud computing. I always feel enthusiastic to explore the vast potential in this field and contribute to the advancement of technology. I enjoy continuously polishing my skills and staying up-to-date with the latest trends and developments in the industry.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Course</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>JavaScript, PHP, CSS</li>
+                            <li><span>Software Engineer</span><br>Python, Java, MySQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sep 2022 - Oct 2022</span><br>Junior Web Developer (Vocational School Graduate Academy BPPTIK Kementrian Kominfo)</li>
+                            <li><span>Feb 2023 - Jul 2023</span><br>Bangkit Academy 2023 - Cloud Computing (Dicoding Indonesia)</li>
+                            <li><span>Feb 2024 – Jun 2024</span><br>Full Stack Cloud Engineer (Social Economic Accelerator Lab)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>S1 Teknik Informatika - IPK : 3.83/4.00 - Universitas Indraprasta PGRI</li>
+                        </ul>
+                        <ul>
+                            <li><span>2017 - 2020</span><br>Teknik Komputer dan Jaringan - SMK Plus PGRI 1 Cibinong </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--certification-->
+    <div id="certification">
+        <div class="container">
+            <h1 class="sub-title">My certification</h1>
+            <div class="certification-list"> 
+                <div> 
+                    <h2>Junior Web Developer - Vocational School Graduate Academy BPPTIK Kementrian Kominfo</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <p>This certification emphasized creating user-friendly interfaces and executing commands in text, graphics, and multimedia programming. It covered structured programming, writing clean and efficient code following best practices, and utilizing pre-existing libraries and components to streamline development.</p>
+                    <a href="https://drive.google.com/file/d/1a2xUxRcJ3qYNWfElFS57-AumkZKOkxMJ/view" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                </div>  
+                <div>
+                    <h2>Cloud Computing - MSIB Kampus Merdeka at Bangkit Academy</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <p>This program focused on foundational JavaScript concepts, developing RESTful APIs with Google Cloud, and exploring key cloud computing and DevOps principles. Participants gained hands-on experience with Google Cloud technologies and learned essential IT support skills, including networking and troubleshooting.</p>
+                    <a href="https://drive.google.com/file/d/1oy3utBncdlqqZ3VC5Oj4OxZxMc_qpvP0/view" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div>
+                    <h2>Fullstack Cloud Engineer - MSIB Kampus Merdeka at Social Economic Accelerator Lab</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <p>This training provided in-depth knowledge of programming concepts for DevOps, version control with Git, and practical experience with cloud platforms and services. It emphasized implementing effective logging and monitoring strategies while covering containerization and orchestration using Docker and Kubernetes.</p>
+                    <a href="https://drive.google.com/file/d/1ZIRIf-rrTXPN9MLeCfwAlXVd05e_4FFE/view" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>API Development - FirstStep (Let’s Know Ur Personality)</h3>
+                    <p>This project involved developing API endpoints for an application that explores user personalities. Key tasks included creating authentication and authorization endpoints, integrating the database with APIs, and connecting Google Cloud Storage. The APIs were deployed to Google Cloud Run, utilizing Python, Flask, MySQL, and Google Cloud Platform for seamless development and deployment.</p>
+                    <a href="https://github.com/frnspry/firststep-api" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Web Development - Gazebo Samasta Reservation</h3>
+                    <p>In this project, the focus was on designing and implementing responsive user interfaces for a reservation system. The tasks included optimizing web applications for speed and scalability, ensuring cross-browser compatibility and mobile responsiveness, and troubleshooting, debugging, and upgrading systems to enhance performance.</p>
+                    <a href="https://github.com/frnspry/samasta" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">Back To Home</a>
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>frnspry@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>089523213456</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/frnspry/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/frnspry" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/fransiscus-dharma-hadi-prayoga/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1KzIOKe_nxy7_UsBg4cmWpwr-_Z3ag6pG/view?usp=sharing" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                <form class="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div> 
+    <footer>
+        <p>Portfolio - Fransiscus Dharma Hadi Prayoga<br>
+        <a href="mailto:frnspry@gmail.com">frnspry@gmail.com</a></p>
+      </footer>    
+    </div>
+
+</body>
+</html>
